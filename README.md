@@ -10,7 +10,7 @@ Include a .txt template where easy add or replace injectors.
 
 Also working on load injector results in .json file.
 
-This is in work application, free to use just me.
+This is in work application, feel free to use just mention me.
 
 Have a nice day.
 Jessica
